@@ -1,0 +1,22 @@
+{
+  "name": "onebox-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.18.2",
+    "imapflow": "1.0.118",
+    "@elastic/elasticsearch": "7.17.0",
+    "dotenv": "16.3.1",
+    "body-parser": "1.20.2",
+    "@pinecone-database/pinecone": "2.2.1"
+  },
+  "description": "Backend instructions.",
+  "directories": {
+    "lib": "lib"
+  },
+  "author": "",
+  "license": "ISC"
+}
